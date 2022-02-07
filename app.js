@@ -30,5 +30,14 @@ greetMe();
 logGreeting(greetMe);
 
 
+// Ejemplos de función de flecha gorda
+
+
+let x= 2;
+let cuadrado =(x)=> x + x ;
+
+console.log (`${cuadrado(10)}`);
+
+
 
 
