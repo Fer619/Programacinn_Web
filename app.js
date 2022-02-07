@@ -39,5 +39,10 @@ let cuadrado =(x)=> x + x ;
 console.log (`${cuadrado(10)}`);
 
 
+// función greeting con la función flecha gorda
+
+greeting(()=>{console.log(`Hola`);})
+
+
 
 
