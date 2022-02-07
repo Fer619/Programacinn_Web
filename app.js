@@ -14,7 +14,21 @@ function logGreeting(fn){
 
 logGreeting (greeting);
 
-// función v1 logGreeting
+// función v2 logGreeting con mayor arreglo
 logGreeting(function(){console.log(`Hola`)});
+
+
+// función número 3 donde greetMe es una función que regresa una oración
+
+let greetMe = function(){
+   console.log('Hello from the function expression');
+}
+
+greetMe();
+
+// Llamado de greetMe para regresar la misma oración
+logGreeting(greetMe);
+
+
 
 
