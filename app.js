@@ -44,5 +44,8 @@ console.log (`${cuadrado(10)}`);
 greeting(()=>{console.log(`Hola`);})
 
 
+// función logGreeting con la función flecha gorda
+logGreeting(()=>{console.log(`Hola`);})
+
 
 
