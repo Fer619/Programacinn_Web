@@ -47,5 +47,9 @@ greeting(()=>{console.log(`Hola`);})
 // función logGreeting con la función flecha gorda
 logGreeting(()=>{console.log(`Hola`);})
 
+// función flecha gorda de la función greetMe
+
+greetMe(()=>{console.log(`Hello from the function expression`);})
+
 
 
